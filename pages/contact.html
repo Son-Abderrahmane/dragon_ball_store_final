@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="../css/goku.css">
+    <style>
+        .contact-section h1, .contact-section p, .contact-form label {
+            color: black;
+        }
+        .contact-form {
+            max-width: 1000px;
+            width: 140%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: rgba(198, 156, 192, 0.8);
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            align-items: center;
+            margin-left: -100px;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+       body{
+        background-image: url(../gif/ego.gif);
+        background-size: cover;
+        background-position: center;
+       }
+    
+    </style>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <ul>
+                <li><a href="../index.html">HOME</a></li>
+                <li><a href="contact.html" class="active">CONTACT</a></li>
+                <li><a href="info.html">INFO</a></li>
+                <li><a href="login.html">LOGIN</a></li>
+            </ul>
+            
+        </nav>
+        
+    </header>
+    
+    <main>
+           
+        <section class="contact-section banner">
+            <div class="container content">
+                <h1 style="font-size: 50px;">Contact Us</h1>
+                <h3><strong> questions? Feel free to reach out to us using the form below.</strong></>
+                <form class="contact-form" action="#" method="post">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <div class="button-container">
+                        <button type="submit" class="btn-products">Send Message</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

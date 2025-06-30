@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="../css/goku.css">
+    <style>
+        body{
+            background-image: url(../gif/gokuzgif.gif);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .login-section {
+            max-width: 400px;
+            margin: 50px auto;
+            margin-top:200px ;
+            padding: 20px;
+            background-color: rgba(47, 48, 50, 0.9);
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            animation: fadeInUp 2s ease;
+
+        }
+        .login-section h1 {
+            text-align: center;
+            color: #9c9a9a;
+            margin-bottom: 20px;
+        }
+        .login-form {
+            display: flex;
+            flex-direction: column;
+        }
+        .login-form input {
+            margin-bottom: 15px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        .login-form button {
+            background-color: #ff9800;
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .login-form button:hover {
+            background-color: #e68900;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <ul>
+                <li><a href="../index.html">HOME</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+                <li><a href="info.html">ABOUT US</a></li>
+                <li><a href="login.html" class="active">LOGIN</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="login-section">
+            <h1>Login</h1>
+            <form class="login-form" action="#" method="post">
+                <input type="text" name="username" placeholder="Username" required>
+                <input type="password" name="password" placeholder="Password" required>
+                <p style="text-align: center;"><a href="*">forget password?</a></p>
+                <button type="submit">Login</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <p> Made by Abderrahmane. / Dragon Ball Store. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

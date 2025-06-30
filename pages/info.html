@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="../css/goku.css">
+    <style>
+        .about-section {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: rgba(50, 43, 43, 0.9);
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(20, 51, 154, 0.1);
+            margin-top: 40px;
+        }
+        .about-section h1 {
+            text-align: center;
+            color: #1f1d1d;
+            font-size: 50px;
+            animation: fadeInUp 2s ease;
+
+        }
+        .about-content {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .about-content .about-card {
+            background: #4d0e0e;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            width: 300px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            animation: fadeInUp 2s ease;
+
+        }
+        .about-content .about-card img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        .about-content .about-card h2 {
+            margin: 10px 0;
+            color: #555;
+        }
+        .about-content .about-card p {
+            font-size: 0.9rem;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <ul>
+               <li><a href="../index.html">HOME</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+                <li><a href="info.html" class="active">ABOUT US</a></li>
+                <li><a href="login.html">LOGIN</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="about-section">
+            <h1>About Us</h1>
+            <p>Welcome to Dragon Ball Store! We are dedicated to providing fans with the best merchandise, collectibles, and more from the Dragon Ball universe. Our mission is to bring the excitement of Dragon Ball to life through high-quality products and exceptional customer service.</p>
+            <div class="about-content">
+                <div class="about-card">
+                    <img src="../images/bireau.jpeg" alt="Our Store">
+                    <h2>My Story</h2>
+                    <p>Founded by passionate fans, i'm aim to connect the Dragon Ball community with unique and exclusive items.</p>
+                </div>
+                <div class="about-card">
+                    <img src="../images/me.jpeg" alt="Our Team">
+                    <h2>About me</h2>
+                    <p>A dedicated person of enthusiasts who ensure every fan has a memorable experience.</p>
+                </div>
+                <div class="about-card">
+                    <img src="../images/vision.jpeg" alt="My Vision">
+                    <h2>My Vision</h2>
+                    <p>To be the leading provider of Dragon Ball merchandise worldwide, fostering a vibrant community.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Dragon Ball Store. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

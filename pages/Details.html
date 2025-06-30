@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details</title>
+    <link rel="stylesheet" href="../css/goku.css">
+    <style>
+        .product-details {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            animation: fadeInUp 2s ease;
+
+        }
+        .product-details img {
+            width: 100%;
+            max-width: 400px;
+            border-radius: 8px;
+
+        }
+        .product-details-content {
+            flex: 1;
+        }
+        .product-details h1 {
+            color: #333;
+            margin-bottom: 15px;
+        }
+        .product-details p {
+            margin-bottom: 10px;
+            color: #555;
+        }
+        .product-details .price {
+            font-size: 1.5rem;
+            color: #e68900;
+            margin: 15px 0;
+        }
+        .product-details button {
+            background-color: #ff9800;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .product-details button:hover {
+            background-color: #e68900;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <ul>
+                <li><a href="../index.html">HOME</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+                <li><a href="info.html">INFO</a></li>
+                <li><a href="login.html">LOGIN</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="product-details">
+            <img src="../images/product1.jpg" alt="Goku Action Figure">
+            <div class="product-details-content">
+                <h1>Goku Action Figure</h1>
+                <p>This high-quality action figure captures Goku in an iconic pose from Dragon Ball. Perfect for fans and collectors alike.</p>
+                <p>Material: PVC</p>
+                <p>Height: 6 inches</p>
+                <p class="price">$25.00</p>
+                <button>Add to Cart</button>
+            </div>
+        </section>
+        <div class="slider" reverse="true" style="
+        --width: 200px;
+        --height: 200px;
+        --quantity: 9;
+    ">
+        <div class="list">
+            <div class="item" style="--position: 1"><img src="../images/balls.jpg" alt=""></div>
+            <div class="item" style="--position: 2"><img src="../images/goku jiren.jpg" alt=""></div>
+            <div class="item" style="--position: 3"><img src="../images/goku t-shurt.jpg" alt=""></div>
+            <div class="item" style="--position: 4"><img src="../images/goku moro.jpg" alt=""></div>
+            <div class="item" style="--position: 5"><img src="../images/mr satan.jpg" alt=""></div>
+            <div class="item" style="--position: 6"><img src="../images/ultra ego.jpg" alt=""></div>
+            <div class="item" style="--position: 7"><img src="../images/product1.jpg" alt=""></div>
+            <div class="item" style="--position: 8"><img src="../images/product2.jpg" alt=""></div>
+            <div class="item" style="--position: 9"><img src="../images/t-shurt 2.jpg" alt=""></div>
+        </div>
+    </div>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Dragon Ball Store. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
